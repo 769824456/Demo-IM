@@ -1,0 +1,42 @@
+<resources>
+    <!--自定义Actionbar风格-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!--自定义ActionBar的风格-->
+        <item name="android:actionBarSize">@style/ActionBar</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="ActionBar" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/title_bg</item>
+        <item name="android:titleTextStyle">@style/ActionBarTextStyle</item>
+        <!--背景-->
+        <item name="background">@color/actionbar_bg</item>
+        <!--字体风格-->
+        <item name="titleTextStyle">@style/ActionBarTextStyle</item>
+
+    </style>
+
+
+    <style name="ActionBarTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <style name="AppInputTheme" parent="AppTheme">
+        <item name="android:textColor">@color/actionbar_bg</item>
+    </style>
+
+    <!--    <style name="RCTheme.ActionBar">
+            <item name="android:background">@color/de_action_color</item>
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">48dp</item>
+            <item name="android:padding">3dp</item>
+        </style>
+
+        <style name="RCTheme.ActionBar.Item">
+            <item name="android:padding">3dp</item>
+        </style>-->
+
+
+</resources>
