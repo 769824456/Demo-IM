@@ -19,4 +19,9 @@
     <color name="item_select">#f3f3f3</color>
     <color name="action_color">#3498DB</color>
     <color name="action_white">@android:color/white</color>
+
+
+    <!--自定义颜色-->
+    <color name="et_login_white">#fff</color>
+    <color name="tv_login_gray">#999</color>
 </resources>
