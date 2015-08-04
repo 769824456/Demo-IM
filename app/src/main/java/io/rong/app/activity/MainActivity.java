@@ -1,9 +1,10 @@
 package io.rong.app.activity;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
-import io.app.app.R;
+import io.rong.app.R;
+import io.rong.app.activity.base.BaseActionBarActivity;
+
 
 /*
  * PROJECT_NAME :IM_DEMO
@@ -14,7 +15,6 @@ import io.app.app.R;
  * NOTE :
  */
 public class MainActivity extends BaseActionBarActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
